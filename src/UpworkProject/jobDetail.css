@@ -1,0 +1,54 @@
+.details-container-upwork {
+    display: flex;
+    margin: 0 50px;
+}
+.details-container-upwork .job-card-upwork {
+    background-color: #F1F3F3;
+    padding: 0 40px;
+    margin-top:70px;
+}
+.details-container-upwork .job-card-upwork h3 {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #5C5D5C;
+}
+.details-container-upwork .job-card-upwork div {
+    margin-top: 30px;
+}
+.details-container-upwork .job-card-upwork div:nth-of-type(3) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #5C5D5C;
+}
+.details-container-upwork .sidebar-details-container {
+    background-color: white;
+}
+.body-details-container {
+    width: 70%;
+}
+.sidebar-details-container {
+    box-sizing: border-box;
+    width: 30%;
+    margin: 0 40px;
+    margin-top: 70px;
+    padding: 20px 40px;
+}
+.sidebar-details-container h4 {
+    margin-top: 30px;
+    color: #5C5D5C;
+}
+.sidebar-details-container img {
+    margin-right: 10px;
+}
+.sidebar-details-container h4:nth-of-type(1) {
+    border-top: 1px solid #5C5D5C;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.sidebar-details-container h4:nth-of-type(4) {
+    border-top: 1px solid #5C5D5C;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.sidebar-details-container h4:nth-of-type(5) {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}

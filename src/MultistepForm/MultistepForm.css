@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.body {
+  margin: 0;
+}
+
+.multistep-form-container {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  font-family: Roboto;
+}
+.left-container {
+  background-color: #745E5E;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  padding: 0px 100px;
+  text-align: left;
+}
+.text-input {
+  margin-top: 50%;
+}
+.text-input > h4 {
+  font-size: 2rem;
+  text-transform: none;
+}
+.text-input > input[type=text] {
+  background-color: #745E5E;
+  display: block;
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
+  padding-bottom: 15px;
+  transition: box-shadow 0.3s ease;
+}
+.text-input > input[type=text]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,255,255, 0.092);
+  color: white;
+}
+.text-input > input[type=text]:focus::placeholder {
+  opacity: 0;
+}
+.text-input > input[type=text]::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+.text-input > button, .budget-buttons > button {
+  padding: 10px 20px;
+  font-weight: 600;
+  color:#745E5E;
+}
+.text-input > button:hover, .budget-buttons > button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.budget-buttons > button {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  padding: 10px 35px;
+  box-sizing: content-box;
+  background-color: #745E5E;
+  color: white;
+  border-color: rgba(255,255,255, 0.6);
+}
+
+.right-image.mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .left-container {
+    width: 50%;
+    min-height: 200px;
+    padding: 0px 50px;
+  }
+  .text-input > h4 {
+    margin: 0;
+  }
+  .right-image.mobile {
+    display: block;
+    width: 50%;
+  }
+  .right-image.mobile > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 50%;
+  }
+
+}
+
+
+  

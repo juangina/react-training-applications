@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.body {
+  margin: 0;
+}
+
+.mui-tutorial {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Poppins;
+}

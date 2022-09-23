@@ -1,0 +1,28 @@
+.upwork-project {
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: none;
+  }
+.upwork-project-nav {
+  background: white;
+  height: 50px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 5px 40px;
+  box-sizing: border-box;
+}
+.upwork-project-links {
+  margin-right: 20px;
+}
+.upwork-project-links a {
+  text-decoration: none;
+  color: black;
+}
+.upwork-project-links a:hover {
+  padding: 5px;
+  background-color: bisque;
+}
+
